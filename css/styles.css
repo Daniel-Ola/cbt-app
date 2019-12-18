@@ -1,0 +1,35 @@
+
+
+
+/*
+.newsupdate		{
+	*margin-top:-100px !important ;
+}
+
+.headlinker:hover		{
+	background-color: #2EAFA8 !important ;
+	color: #2EAFA8 !important ;
+}*/
+
+.img		{
+	width: 250px !important ;
+	height: 200px !important ;
+}
+
+
+.bg-white	{
+	background-color: white !important ;
+}
+
+.post-details:hover	{
+color: #343D47 ;
+}
+
+.hoverlink	{
+	color: #343D47 !important;
+}
+
+.headlink:hover	{
+	*font-size: 25px ;
+	color: red !important ;
+}

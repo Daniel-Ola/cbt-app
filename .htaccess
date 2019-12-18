@@ -1,0 +1,7 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^setquestions/?$    setquestions/    [NC,L]    # Handle requests for "pet-care"
+RewriteRule    ^([a-zA-Z0-9]+)/?$    questions.php    [NC,L]    # Handle requests for "pet-care"
+RewriteRule    ^([a-zA-Z0-9]+)?$    index.php    [NC,L]    # Handle requests for "pet-care"
+##RewriteRule    ^payment-cancelled/([0-9]+)/?$    paypal/payment-cancelled.php?paid=$1    [NC,L]    # Handle requests for "pet-care"
+
+ErrorDocument 404 http://ore-oluwadaniel/ubc/

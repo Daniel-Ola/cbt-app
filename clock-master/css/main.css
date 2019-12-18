@@ -1,0 +1,109 @@
+/*DIGITAL CLOCK FONT*/
+@font-face{
+ font-family:'digital-7';
+ src: url('../fonts/digital-7.ttf');
+}
+
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+
+/*body {
+}*/
+
+main {
+	color: #ffffff;
+	/*background-color: #000000;*/
+	background-color: transparent; ;
+	font-family: 'digital-7', sans-serif;
+	text-align: center;
+    /*position: absolute;
+    top: 0%;
+    left: 500px;*/
+    /*transform: translate(-50%,-50%);*/
+    padding: 15px;
+    border: solid 5px #ffffff;
+    height: 90px !important;
+    margin-top: 10px ;
+}
+
+
+/* DAYS OF THE WEEK */
+div.days {
+	margin: 0 auto;
+	margin-top: -10px ;
+	color: #343D46;
+}
+
+div.days .day {
+	display: inline-block;
+}
+
+div.days .day p {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+
+/* CLOCK */
+div.clock {
+	margin: 5px 0;
+}
+
+div.clock div{
+	display: inline-block;
+	position: relative;
+}
+
+div.clock div p{
+	font-size: 50px;
+	margin-top: 15px ;
+	position: relative;
+	z-index: 100;
+}
+
+div.clock .placeholder {
+	color: #343D46;
+	position: absolute;
+	top: 0;
+	z-index: 50;
+}/*END CLOCK*/
+
+
+/* AM OR PM*/
+.am-pm {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	width: 20px;
+}
+
+.am {
+	/*position: relative;*/
+	margin-bottom: -50px ;
+	/*padding-bottom: -110px ;*/
+}
+
+.pm {
+	/*position: relative;*/
+	margin-top: -50px ;
+	/*padding-bottom: -110px ;*/
+}
+
+div.am-pm div p {
+	font-size: 12px;
+	margin-top: -15px ;
+	font-weight: bold;
+	width: 100%;
+}
+
+.am, .pm {
+	color: #343D46;
+}
+
+/*CLASS THAT CHANGES COLOR OF TEXT TO APPEAR LIKE ITS "ON"*/
+.light-on {
+	color: #ffffff;
+}

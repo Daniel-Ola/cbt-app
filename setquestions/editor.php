@@ -158,7 +158,7 @@
                             <!-- <div class="col-md-12">&nbsp;</div> -->
                             <div class="col-md-6">
                               <label>Add an Image (Enter image name and extension only)</label>
-                              <input type="text" class="form-control" id="imgName" placeholder="e.g. mth101settheory.jpg" name="">
+                              <input type="text" class="form-control" id="imgName" placeholder="e.g. mth101settheory.jpg" name="img">
                             </div>
                           </div>
                         </div>

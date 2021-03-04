@@ -31,7 +31,7 @@ class DataWrite
 		$subject = $getsubid ;
 		$klass = $getklasid ;
 		$type = $getypeid ; */
-		$klass_id = switchClass($klass) ;
+		$klass_id = $dataRead->switchClass($klass) ;
 		$trunc_sub = substr($subject , 0 , 3) ;
 		$sub_code = $trunc_sub.$klass_id ;
 		$getsubid = $dataRead->getsubid($connect , $subject , $klass_id) ;

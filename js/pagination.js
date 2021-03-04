@@ -196,7 +196,11 @@ $("#wizard-validation-form-index").submit(function(event){
 				}
 				else
 				{
-					location.replace("http://ore-oluwadaniel/ubc/"+course+"/") ;
+					// return;
+					// var redirectTo = window.location.href + course + "/";
+					// var redirectTo = window.location.href + "questions.php";
+					var redirectTo = "questions.php";
+					location.replace(redirectTo) ;
 				}
 			}
 			else

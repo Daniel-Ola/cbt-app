@@ -141,7 +141,7 @@
                                                 <tbody>
                         <?php 
                             $array = array() ;
-                            $query = mysqli_query($connect , "SELECT matric FROM users WHERE course = 'mth101' AND checkif = '1' ") ;
+                            $query = mysqli_query($connect , "SELECT matric FROM users WHERE course = 'mth102' AND checkif = '1' ") ;
                             while($fetch = mysqli_fetch_assoc($query)){
                                 array_push($array, $fetch) ;
                             }

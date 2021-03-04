@@ -12,35 +12,35 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
 
-        <link rel="shortcut icon" href="http://ore-oluwadaniel/ubc/assets/images/favicon_1.ico">
+        <link rel="shortcut icon" href="assets/images/favicon_1.ico">
 
         <title>UBC CBT</title>
         
-        <link href="http://ore-oluwadaniel/ubc/assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
-        <link href="http://ore-oluwadaniel/ubc/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="http://ore-oluwadaniel/ubc/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-        <link href="http://ore-oluwadaniel/ubc/assets/plugins/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
-        <link href="http://ore-oluwadaniel/ubc/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+        <link href="assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+        <link href="assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="assets/plugins/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+        <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
         <!--Form Wizard-->
-        <link rel="stylesheet" type="text/css" href="http://ore-oluwadaniel/ubc/assets/plugins/jquery.steps/css/jquery.steps.css" />
+        <link rel="stylesheet" type="text/css" href="assets/plugins/jquery.steps/css/jquery.steps.css" />
 
-        <link href="http://ore-oluwadaniel/ubc/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="http://ore-oluwadaniel/ubc/assets/css/core.css" rel="stylesheet" type="text/css" />
-        <link href="http://ore-oluwadaniel/ubc/assets/css/components.css" rel="stylesheet" type="text/css" />
-        <link href="http://ore-oluwadaniel/ubc/assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="http://ore-oluwadaniel/ubc/assets/css/pages.css" rel="stylesheet" type="text/css" />
-        <link href="http://ore-oluwadaniel/ubc/assets/css/responsive.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="http://ore-oluwadaniel/ubc/css/style.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-        <script src="http://ore-oluwadaniel/ubc/https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-        <script src="http://ore-oluwadaniel/ubc/assets/js/modernizr.min.js"></script>
+        <script src="assets/js/modernizr.min.js"></script>
 
 
     </head>
@@ -127,7 +127,7 @@
                                                             echo $img;
                                                     ?>
                                                         <p class='btn btn-default btn-sm showImg' id='viewImg<?php echo $i ; ?>' goto='img<?php echo $i ; ?>'>View Image</p>
-                                                        <a href="#" data-toggle="modal" data-target="#myModal<?php echo $i ; ?>" style="display: none;" id="img<?php echo $i ; ?>"><img class="img img-responsive img-thumbnail" src="http://ore-oluwadaniel/ubc/images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>"><caption>Click image to get a larger view</caption></a>
+                                                        <a href="#" data-toggle="modal" data-target="#myModal<?php echo $i ; ?>" style="display: none;" id="img<?php echo $i ; ?>"><img class="img img-responsive img-thumbnail" src="images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>"><caption>Click image to get a larger view</caption></a>
 
                                                         <!-- sample modal content -->
                                     <div id="myModal<?php echo $i ; ?>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -138,7 +138,7 @@
                                                     <h4 class="modal-title" id="myModalLabel">Image for question <?php echo $i ; ?></h4>
                                                 </div>
                                                 <div class="modal-body text-center">
-                                                    <img class="img img-responsive img-thumbnail" src="http://ore-oluwadaniel/ubc/images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>">
+                                                    <img class="img img-responsive img-thumbnail" src="images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>">
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
@@ -257,7 +257,7 @@
                         <!-- <div class="row"> -->
                         <!-- </div> -->
                             <div class="col-sm-12 col-lg-6 col-md-offset-3">
-                                <!-- <iframe src="http://ore-oluwadaniel/ubc/clock-master/index.html" width="100%" style="height: inherit;"></iframe> -->
+                                <!-- <iframe src="clock-master/index.html" width="100%" style="height: inherit;"></iframe> -->
                                 <?php include_once("clock-master/index.html") ; ?>
                             </div>
                         </div>
@@ -276,35 +276,35 @@
         </script>
 
         <!-- jQuery  -->
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.min.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/bootstrap.min.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/detect.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/fastclick.js"></script>
-        <script type="text/javascript" src="http://ore-oluwadaniel/ubc/js/datebdate.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script type="text/javascript" src="js/datebdate.js"></script>
 
 
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.slimscroll.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.blockUI.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/waves.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/wow.min.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.nicescroll.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.scrollTo.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
 
-        <script src="http://ore-oluwadaniel/ubc/assets/plugins/peity/jquery.peity.min.js"></script>
+        <script src="assets/plugins/peity/jquery.peity.min.js"></script>
 
         <!-- jQuery  -->
-        <script src="http://ore-oluwadaniel/ubc/assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/plugins/counterup/jquery.counterup.min.js"></script>
+        <script src="assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
+        <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
 
         <!--Form Wizard-->
-        <script type="text/javascript" src="http://ore-oluwadaniel/ubc/assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
 
-        <script src="http://ore-oluwadaniel/ubc/assets/pages/jquery.form-pickers.init.js"></script>
+        <script src="assets/pages/jquery.form-pickers.init.js"></script>
 
 
 
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.core.js"></script>
-        <script src="http://ore-oluwadaniel/ubc/assets/js/jquery.app.js"></script>
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
 
         <script type="text/javascript">
             jQuery(document).ready(function($) {
@@ -318,9 +318,9 @@
             });
         </script>
 
-        <script type="text/javascript" src="http://ore-oluwadaniel/ubc/js/jquery-3.2.1.min.js?v=1.10"></script>
-        <script type="text/javascript" src="http://ore-oluwadaniel/ubc/js/pagination.js?lissfd"></script>
-        <script type="text/javascript" src="http://ore-oluwadaniel/ubc/js/tweaks.js?lissfd"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js?v=1.10"></script>
+        <script type="text/javascript" src="js/pagination.js?lissfd"></script>
+        <script type="text/javascript" src="js/tweaks.js?lissfd"></script>
 
       <!--   <script>
 

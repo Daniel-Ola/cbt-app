@@ -114,7 +114,7 @@
         <script src="assets/js/jquery.app.js"></script>
 
 
-        <script type="text/javascript" src="js/custom.js?v=I_give_myself_aw"></script>
+        <script type="text/javascript" src="js/custom.js?v=jsdf"></script>
 	
 	</body>
 </html>

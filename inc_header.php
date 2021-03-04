@@ -33,7 +33,7 @@
                 <a class="navbar-brand"  href="">
                         <div class="topbar-left">
                     <div class="text-center">
-                        <div class="logo pull-right"><img src="http://ore-oluwadaniel/ubc/images/ubc_logo.png" style="width: 100px !important ; height: 100px !important ; margin-top: -70% ; margin-left: -10px ;" class="img img-responsive img-circle" />
+                        <div class="logo pull-right"><img src="images/ubc_logo.png" style="width: 100px !important ; height: 100px !important ; margin-top: -70% ; margin-left: -10px ;" class="img img-responsive img-circle" />
                         <a href="index.php" class=""><span></span></a></div>
                         <!-- Image Logo here -->
                         <!--<a href="index.html" class="logo">-->

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6bff5c-7f6e-498a-9aee-7d7624d531c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ubc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ubc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clock-master/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/dbfunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/dbfunctions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/questions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setquestions/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/setquestions/editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setquestions/evaluate.php" beforeDir="false" afterPath="$PROJECT_DIR$/setquestions/evaluate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setquestions/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/setquestions/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../HOLDINGS/PORTAL/_src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../HOLDINGS/STAFF DIRECTORY PORTAL/_src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -94,6 +83,9 @@
       <workItem from="1614806107641" duration="6562000" />
       <workItem from="1614846387958" duration="256000" />
       <workItem from="1614863329735" duration="867000" />
+      <workItem from="1615156411594" duration="976000" />
+      <workItem from="1615195041188" duration="632000" />
+      <workItem from="1615197883820" duration="105000" />
     </task>
     <servers />
   </component>

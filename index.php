@@ -113,7 +113,7 @@ BEST OF GOD.</span>
                                                     <label>Select a course</label>
                                                     <select name="course" class="form-control" id="course" required="required">
                                                         <option value="0">Select a course</option>
-                                                        <optgroup label="First Semester Courses">
+                                                        <optgroup label="First Semester Courses" disabled hidden="">
                                                             <option disabled=""></option>
                                                             <option value="mth101">MTH101</option>
                                                             <option value="gns101">GNS101</option>
@@ -128,11 +128,9 @@ BEST OF GOD.</span>
                                                             <option disabled=""></option>
                                                             <option value="mth102">MTH102</option>
                                                             <option value="gns102">GNS102</option>
-                                                            <option value="faa102">FAA102</option>
                                                             <option value="chm102">CHM102</option>
                                                             <option value="phy102">PHY102</option>
                                                             <option value="bio102">BIO102</option>
-                                                            <option value="lib102">LIB102</option>
                                                             <option disabled=""></option>
                                                         </optgroup>
                                                         

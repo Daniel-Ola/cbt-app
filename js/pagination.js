@@ -243,7 +243,7 @@ function finishjob()
 	/*alert("enter") ;
 	alert("answered "+answered) ;*/
 	// event.preventDefault() ;
-	url = "../php/actionmanager.php" ;
+	url = "php/actionmanager.php" ;
 	totalQue = $("#totalPage").val() ;
 	course = $("#whichCourse").html() ;
 	var correctAnswers = "";

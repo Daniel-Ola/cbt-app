@@ -231,6 +231,7 @@ function checkAvailable(val , url)
 $("#saveCode").click(function(event){
 	code = $("#xamCode").val() ;
 	url = "../php/actionmanager.php" ;
+	console.log(url);
 	ret = checkAvailable(code , url) ;
 	if(ret != "none")
 	{// continue code

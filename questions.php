@@ -12,25 +12,25 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
 
-        <link rel="shortcut icon" href="assets/images/favicon_1.ico">
+        <link rel="shortcut icon" href="./assets/images/favicon_1.ico">
 
         <title>UBC CBT</title>
         
-        <link href="assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
-        <link href="assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-        <link href="assets/plugins/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
-        <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+        <link href="./assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+        <link href="./assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="./assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="./assets/plugins/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+        <link href="./assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
         <!--Form Wizard-->
-        <link rel="stylesheet" type="text/css" href="assets/plugins/jquery.steps/css/jquery.steps.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/plugins/jquery.steps/css/jquery.steps.css" />
 
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,7 +40,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-        <script src="assets/js/modernizr.min.js"></script>
+        <script src="./assets/js/modernizr.min.js"></script>
 
 
     </head>
@@ -88,7 +88,7 @@
                                 <div class="card-box">
                                     <h4 class="m-t-0 header-title pull-right"><b><i><?php echo $userDet['username']; ?></i></b></h4>
                                     
-                                    <form id="wizard-validation-form" action="php/actionmanager.php" method="post" enctype="multipart/form-data">
+                                    <form id="wizard-validation-form" action="./php/actionmanager.php" method="post" enctype="multipart/form-data">
                                         <?php
                                         $page = 1 ;
                                         echo '<input type="number" id="page" value="'.$page.'" name="" style="display: none;">';
@@ -127,7 +127,7 @@
                                                             echo $img;
                                                     ?>
                                                         <p class='btn btn-default btn-sm showImg' id='viewImg<?php echo $i ; ?>' goto='img<?php echo $i ; ?>'>View Image</p>
-                                                        <a href="#" data-toggle="modal" data-target="#myModal<?php echo $i ; ?>" style="display: none;" id="img<?php echo $i ; ?>"><img class="img img-responsive img-thumbnail" src="images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>"><caption>Click image to get a larger view</caption></a>
+                                                        <a href="#" data-toggle="modal" data-target="#myModal<?php echo $i ; ?>" style="display: none;" id="img<?php echo $i ; ?>"><img class="img img-responsive img-thumbnail" src="./images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>"><caption>Click image to get a larger view</caption></a>
 
                                                         <!-- sample modal content -->
                                     <div id="myModal<?php echo $i ; ?>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -138,7 +138,7 @@
                                                     <h4 class="modal-title" id="myModalLabel">Image for question <?php echo $i ; ?></h4>
                                                 </div>
                                                 <div class="modal-body text-center">
-                                                    <img class="img img-responsive img-thumbnail" src="images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>">
+                                                    <img class="img img-responsive img-thumbnail" src="./images/q_img/<?php echo $row['img'] ?>" alt="image for question <?php echo $i ; ?>">
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
@@ -236,7 +236,7 @@
                                                     
                                                 </div>
                                                 <div class="panel-footer" style="display: none;">
-                                                    <a href="../logout.php">Logout</a>
+                                                    <a href="./logout.php">Logout</a>
                                                 </div>
                                             </div>
                                         <!-- </div>
@@ -276,35 +276,35 @@
         </script>
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/detect.js"></script>
-        <script src="assets/js/fastclick.js"></script>
-        <script type="text/javascript" src="js/datebdate.js"></script>
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/detect.js"></script>
+        <script src="./assets/js/fastclick.js"></script>
+        <script type="text/javascript" src="./js/datebdate.js"></script>
 
 
-        <script src="assets/js/jquery.slimscroll.js"></script>
-        <script src="assets/js/jquery.blockUI.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.nicescroll.js"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
+        <script src="./assets/js/jquery.slimscroll.js"></script>
+        <script src="./assets/js/jquery.blockUI.js"></script>
+        <script src="./assets/js/waves.js"></script>
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="./assets/js/jquery.nicescroll.js"></script>
+        <script src="./assets/js/jquery.scrollTo.min.js"></script>
 
-        <script src="assets/plugins/peity/jquery.peity.min.js"></script>
+        <script src="./assets/plugins/peity/jquery.peity.min.js"></script>
 
         <!-- jQuery  -->
-        <script src="assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
-        <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
+        <script src="./assets/plugins/waypoints/lib/jquery.waypoints.js"></script>
+        <script src="./assets/plugins/counterup/jquery.counterup.min.js"></script>
 
         <!--Form Wizard-->
-        <script type="text/javascript" src="assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="./assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
 
-        <script src="assets/pages/jquery.form-pickers.init.js"></script>
+        <script src="./assets/pages/jquery.form-pickers.init.js"></script>
 
 
 
-        <script src="assets/js/jquery.core.js"></script>
-        <script src="assets/js/jquery.app.js"></script>
+        <script src="./assets/js/jquery.core.js"></script>
+        <script src="./assets/js/jquery.app.js"></script>
 
         <script type="text/javascript">
             jQuery(document).ready(function($) {
@@ -318,9 +318,9 @@
             });
         </script>
 
-        <script type="text/javascript" src="js/jquery-3.2.1.min.js?v=1.10"></script>
-        <script type="text/javascript" src="js/pagination.js?lissfd"></script>
-        <script type="text/javascript" src="js/tweaks.js?lissfd"></script>
+        <script type="text/javascript" src="./js/jquery-3.2.1.min.js?v=<?php rand(1000, 10000) ?>"></script>
+        <script type="text/javascript" src="./js/pagination.js?v=<?php rand(1000, 10000) ?>"></script>
+        <script type="text/javascript" src="./js/tweaks.js?v=<?php rand(1000, 10000) ?>"></script>
 
       <!--   <script>
 
